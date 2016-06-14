@@ -13,7 +13,8 @@ function sq_two_out_of_three (x, y, z){
 
 //Nightmare Mode Homework (Using recursive if) - June 13, 2016
 
-if (n>=0){
+function countdown(n){
+  if (n>=0){
   console.log(n);
   n--;
   countdown(n);
