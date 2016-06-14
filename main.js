@@ -69,3 +69,21 @@ instructorName = "Brit";
 
 // Final Statement
 var statement = yourName + " is taking a class at The Iron Yard. Their instructor's name is " + instructorName;
+
+
+//Hard Mode Homework - June 13, 2016
+
+function sq_two_out_of_three (x, y, z){
+  var minNumber = Math.min(x,y,z);
+  return(((x*x)+(y*y)+(z*z))-(minNumber*minNumber));
+}
+
+//Nightmare Mode Homework (Using recursive if) - June 13, 2016
+
+if (n>=0){
+  console.log(n);
+  n--;
+  countdown(n);
+}
+else{}
+}
